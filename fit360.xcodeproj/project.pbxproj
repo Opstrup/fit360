@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4792B951D9B201C000069B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4792B941D9B201C000069B3 /* AppDelegate.swift */; };
+		D4792B971D9B201C000069B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4792B961D9B201C000069B3 /* ViewController.swift */; };
+		D4792B9A1D9B201C000069B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4792B981D9B201C000069B3 /* Main.storyboard */; };
+		D4792B9C1D9B201C000069B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4792B9B1D9B201C000069B3 /* Assets.xcassets */; };
+		D4792B9F1D9B201C000069B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4792B9D1D9B201C000069B3 /* LaunchScreen.storyboard */; };
+		D4792BAA1D9B201C000069B3 /* fit360Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4792BA91D9B201C000069B3 /* fit360Tests.swift */; };
+		D4792BB51D9B201C000069B3 /* fit360UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4792BB41D9B201C000069B3 /* fit360UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4792BA61D9B201C000069B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4792B891D9B201B000069B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4792B901D9B201C000069B3;
+			remoteInfo = fit360;
+		};
+		D4792BB11D9B201C000069B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4792B891D9B201B000069B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4792B901D9B201C000069B3;
+			remoteInfo = fit360;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4792B911D9B201C000069B3 /* fit360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fit360.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4792B941D9B201C000069B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4792B961D9B201C000069B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4792B991D9B201C000069B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4792B9B1D9B201C000069B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4792B9E1D9B201C000069B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4792BA01D9B201C000069B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4792BA51D9B201C000069B3 /* fit360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fit360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4792BA91D9B201C000069B3 /* fit360Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fit360Tests.swift; sourceTree = "<group>"; };
+		D4792BAB1D9B201C000069B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4792BB01D9B201C000069B3 /* fit360UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fit360UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4792BB41D9B201C000069B3 /* fit360UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fit360UITests.swift; sourceTree = "<group>"; };
+		D4792BB61D9B201C000069B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4792B8E1D9B201C000069B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4792BA21D9B201C000069B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4792BAD1D9B201C000069B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4792B881D9B201B000069B3 = {
+			isa = PBXGroup;
+			children = (
+				D4792B931D9B201C000069B3 /* fit360 */,
+				D4792BA81D9B201C000069B3 /* fit360Tests */,
+				D4792BB31D9B201C000069B3 /* fit360UITests */,
+				D4792B921D9B201C000069B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4792B921D9B201C000069B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4792B911D9B201C000069B3 /* fit360.app */,
+				D4792BA51D9B201C000069B3 /* fit360Tests.xctest */,
+				D4792BB01D9B201C000069B3 /* fit360UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4792B931D9B201C000069B3 /* fit360 */ = {
+			isa = PBXGroup;
+			children = (
+				D4792B941D9B201C000069B3 /* AppDelegate.swift */,
+				D4792B961D9B201C000069B3 /* ViewController.swift */,
+				D4792B981D9B201C000069B3 /* Main.storyboard */,
+				D4792B9B1D9B201C000069B3 /* Assets.xcassets */,
+				D4792B9D1D9B201C000069B3 /* LaunchScreen.storyboard */,
+				D4792BA01D9B201C000069B3 /* Info.plist */,
+			);
+			path = fit360;
+			sourceTree = "<group>";
+		};
+		D4792BA81D9B201C000069B3 /* fit360Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4792BA91D9B201C000069B3 /* fit360Tests.swift */,
+				D4792BAB1D9B201C000069B3 /* Info.plist */,
+			);
+			path = fit360Tests;
+			sourceTree = "<group>";
+		};
+		D4792BB31D9B201C000069B3 /* fit360UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4792BB41D9B201C000069B3 /* fit360UITests.swift */,
+				D4792BB61D9B201C000069B3 /* Info.plist */,
+			);
+			path = fit360UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4792B901D9B201C000069B3 /* fit360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4792BB91D9B201C000069B3 /* Build configuration list for PBXNativeTarget "fit360" */;
+			buildPhases = (
+				D4792B8D1D9B201C000069B3 /* Sources */,
+				D4792B8E1D9B201C000069B3 /* Frameworks */,
+				D4792B8F1D9B201C000069B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fit360;
+			productName = fit360;
+			productReference = D4792B911D9B201C000069B3 /* fit360.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4792BA41D9B201C000069B3 /* fit360Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4792BBC1D9B201C000069B3 /* Build configuration list for PBXNativeTarget "fit360Tests" */;
+			buildPhases = (
+				D4792BA11D9B201C000069B3 /* Sources */,
+				D4792BA21D9B201C000069B3 /* Frameworks */,
+				D4792BA31D9B201C000069B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4792BA71D9B201C000069B3 /* PBXTargetDependency */,
+			);
+			name = fit360Tests;
+			productName = fit360Tests;
+			productReference = D4792BA51D9B201C000069B3 /* fit360Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4792BAF1D9B201C000069B3 /* fit360UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4792BBF1D9B201C000069B3 /* Build configuration list for PBXNativeTarget "fit360UITests" */;
+			buildPhases = (
+				D4792BAC1D9B201C000069B3 /* Sources */,
+				D4792BAD1D9B201C000069B3 /* Frameworks */,
+				D4792BAE1D9B201C000069B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4792BB21D9B201C000069B3 /* PBXTargetDependency */,
+			);
+			name = fit360UITests;
+			productName = fit360UITests;
+			productReference = D4792BB01D9B201C000069B3 /* fit360UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4792B891D9B201B000069B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = smallcity;
+				TargetAttributes = {
+					D4792B901D9B201C000069B3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D4792BA41D9B201C000069B3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4792B901D9B201C000069B3;
+					};
+					D4792BAF1D9B201C000069B3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4792B901D9B201C000069B3;
+					};
+				};
+			};
+			buildConfigurationList = D4792B8C1D9B201B000069B3 /* Build configuration list for PBXProject "fit360" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4792B881D9B201B000069B3;
+			productRefGroup = D4792B921D9B201C000069B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4792B901D9B201C000069B3 /* fit360 */,
+				D4792BA41D9B201C000069B3 /* fit360Tests */,
+				D4792BAF1D9B201C000069B3 /* fit360UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4792B8F1D9B201C000069B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4792B9F1D9B201C000069B3 /* LaunchScreen.storyboard in Resources */,
+				D4792B9C1D9B201C000069B3 /* Assets.xcassets in Resources */,
+				D4792B9A1D9B201C000069B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4792BA31D9B201C000069B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4792BAE1D9B201C000069B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4792B8D1D9B201C000069B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4792B971D9B201C000069B3 /* ViewController.swift in Sources */,
+				D4792B951D9B201C000069B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4792BA11D9B201C000069B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4792BAA1D9B201C000069B3 /* fit360Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4792BAC1D9B201C000069B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4792BB51D9B201C000069B3 /* fit360UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4792BA71D9B201C000069B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4792B901D9B201C000069B3 /* fit360 */;
+			targetProxy = D4792BA61D9B201C000069B3 /* PBXContainerItemProxy */;
+		};
+		D4792BB21D9B201C000069B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4792B901D9B201C000069B3 /* fit360 */;
+			targetProxy = D4792BB11D9B201C000069B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4792B981D9B201C000069B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4792B991D9B201C000069B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4792B9D1D9B201C000069B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4792B9E1D9B201C000069B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4792BB71D9B201C000069B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4792BB81D9B201C000069B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4792BBA1D9B201C000069B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fit360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmallCity.fit360;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D4792BBB1D9B201C000069B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fit360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmallCity.fit360;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D4792BBD1D9B201C000069B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fit360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmallCity.fit360Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fit360.app/fit360";
+			};
+			name = Debug;
+		};
+		D4792BBE1D9B201C000069B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fit360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmallCity.fit360Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fit360.app/fit360";
+			};
+			name = Release;
+		};
+		D4792BC01D9B201C000069B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = fit360UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmallCity.fit360UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fit360;
+			};
+			name = Debug;
+		};
+		D4792BC11D9B201C000069B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = fit360UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmallCity.fit360UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fit360;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4792B8C1D9B201B000069B3 /* Build configuration list for PBXProject "fit360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4792BB71D9B201C000069B3 /* Debug */,
+				D4792BB81D9B201C000069B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4792BB91D9B201C000069B3 /* Build configuration list for PBXNativeTarget "fit360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4792BBA1D9B201C000069B3 /* Debug */,
+				D4792BBB1D9B201C000069B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4792BBC1D9B201C000069B3 /* Build configuration list for PBXNativeTarget "fit360Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4792BBD1D9B201C000069B3 /* Debug */,
+				D4792BBE1D9B201C000069B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4792BBF1D9B201C000069B3 /* Build configuration list for PBXNativeTarget "fit360UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4792BC01D9B201C000069B3 /* Debug */,
+				D4792BC11D9B201C000069B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4792B891D9B201B000069B3 /* Project object */;
+}
