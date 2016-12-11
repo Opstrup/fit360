@@ -10,4 +10,7 @@ import Foundation
 
 enum FoodItemError: Error {
     case invalidCalorieAmount
+    case invalidProteinAmount
+    case invalidCarbohydrateAmount
+    case invalidFatAmount
 }

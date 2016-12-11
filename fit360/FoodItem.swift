@@ -11,20 +11,23 @@ import Foundation
 class FoodItem {
     private var _name: String?
     private var _calorie: Float?
-    private var _protein: Float!
-    private var _carbohydrate: Float!
+    private var _protein: Float?
+    private var _carbohydrate: Float?
     private var _fat: Float!
     
     init() {
         
     }
     
-    init(name: String, calorie: Float) {
+    init(name: String, calorie: Float, protein: Float, carbohydrate: Float, fat: Float) {
         self.setName(name: name)
         do {
             try self.setCalorie(amount: calorie)
+            try self.setProtein(amount: protein)
+            try self.setCarbohydrate(amount: carbohydrate)
+            try self.setFat(amount: fat)
         } catch is Error {
-            print("Invalid calorie amount!")
+            print("Error occurred!")
         }
     }
     
@@ -48,24 +51,36 @@ class FoodItem {
         return (_calorie != nil ? _calorie! : 1.0)
     }
     
-    func setProtein(amount: Float) {
-        _protein = amount
+    func setProtein(amount: Float) throws {
+        if amount > 0 {
+            _protein = amount
+        } else {
+            throw FoodItemError.invalidProteinAmount
+        }
     }
     
     func getProtein() -> Float {
-        return _protein
+        return (_protein != nil ? _protein! : 1.0)
     }
     
-    func setCarbohydrate(amount: Float) {
-        _carbohydrate = amount
+    func setCarbohydrate(amount: Float) throws {
+        if amount > 0 {
+            _carbohydrate = amount
+        } else {
+            throw FoodItemError.invalidCarbohydrateAmount
+        }
     }
     
     func getCarbohydrate() -> Float {
-        return _carbohydrate
+        return (_carbohydrate != nil ? _carbohydrate! : 1.0)
     }
     
-    func setFat(amount: Float) {
-        _fat = amount
+    func setFat(amount: Float) throws {
+        if amount > 0 {
+            _fat = amount
+        } else {
+            throw FoodItemError.invalidFatAmount
+        }
     }
     
     func getFat() -> Float {
