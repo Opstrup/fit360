@@ -27,12 +27,35 @@ class mealTests: XCTestCase {
         XCTAssertNotNil(UUT, "The food item was not nill")
     }
     
-    func testGetMealExpectEmptyArray() {
-        let emptyArray = UUT.getFoodItems()
-        XCTAssertEqual(emptyArray.count, 0, "Get food items does not return array of food")
+    func testGetMealExpectErrorEmptyMealThorwn() {
+        XCTAssertThrowsError(try UUT.getFoodItems()) { (error) -> Void in
+            XCTAssertEqual(error as? MealError, MealError.emptyMeal)
+        }
     }
     
     func testGetMealExpectFirstItemIsFoodItem() {
-        
+        let testFoodItem = FoodItem(name: "chicken", calorie: 10.0, protein: 10.0, carbohydrate: 10.0, fat: 10.0)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        do {
+            let mealArray = try UUT.getFoodItems()
+            XCTAssertEqual(mealArray[0].getName(), "chicken", "Food item was not added to the meal")
+        } catch is Error { }
+    }
+    
+    func testGetTotalCalorieOfEmptyMealExpect0() {
+        XCTAssertEqual(UUT.getTotalCalorieCount(), 0.0, "Total calorie count of empty meal is not 0.0")
+    }
+    
+    func testGetTotalCalorieOfMealWithOneFoodItemExpect10() {
+        let testFoodItem = FoodItem(name: "chicken", calorie: 10.0, protein: 10.0, carbohydrate: 10.0, fat: 10.0)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        XCTAssertEqual(UUT.getTotalCalorieCount(), 10.0, "Total calorie count of empty meal is not 0.0")
+    }
+    
+    func testGetTotalCalorieOfMealWithTwoFoodItemExpect20() {
+        let testFoodItem = FoodItem(name: "chicken", calorie: 10.0, protein: 10.0, carbohydrate: 10.0, fat: 10.0)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        XCTAssertEqual(UUT.getTotalCalorieCount(), 20.0, "Total calorie count of empty meal is not 0.0")
     }
 }

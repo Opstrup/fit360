@@ -15,7 +15,40 @@ class Meal {
         _foodItems.append(foodItem)
     }
     
-    func getFoodItems() -> [String] {
-        return [String]()
+    func getFoodItems() throws -> [FoodItem] {
+        if !_foodItems.isEmpty {
+            return _foodItems
+        } else {
+            throw MealError.emptyMeal
+        }
+    }
+    
+    /*
+     * Maybe add some validation here
+     * with empty meals
+     */
+    
+    func getTotalCalorieCount() -> Float {
+        if !_foodItems.isEmpty {
+            var calorieCount: Float = 0.0
+            for foodItem in _foodItems {
+                calorieCount.add(foodItem.getCalorie())
+            }
+            return calorieCount
+        } else {
+            return 0.0
+        }
+    }
+    
+    func getTotalProteinCount() -> Float {
+        return 0.0
+    }
+    
+    func getTotalCarbohydrateCount() -> Float {
+        return 0.0
+    }
+    
+    func getTotalFatCount() -> Float {
+        return 0.0
     }
 }

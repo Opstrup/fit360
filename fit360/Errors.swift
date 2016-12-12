@@ -14,3 +14,7 @@ enum FoodItemError: Error {
     case invalidCarbohydrateAmount
     case invalidFatAmount
 }
+
+enum MealError: Error {
+    case emptyMeal
+}
