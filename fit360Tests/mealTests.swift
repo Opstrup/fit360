@@ -56,6 +56,27 @@ class mealTests: XCTestCase {
         let testFoodItem = FoodItem(name: "chicken", calorie: 10.0, protein: 10.0, carbohydrate: 10.0, fat: 10.0)
         UUT.addFoodItem(foodItem: testFoodItem)
         UUT.addFoodItem(foodItem: testFoodItem)
-        XCTAssertEqual(UUT.getTotalCalorieCount(), 20.0, "Total calorie count of empty meal is not 0.0")
+        XCTAssertEqual(UUT.getTotalCalorieCount(), 20.0, "Total calorie count of meal is not 20.0")
+    }
+    
+    func testGetTotalProteinOfMealWithTwoFoodItemExpect20() {
+        let testFoodItem = FoodItem(name: "chicken", calorie: 10.0, protein: 10.0, carbohydrate: 10.0, fat: 10.0)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        XCTAssertEqual(UUT.getTotalProteinCount(), 20.0, "Total protein count of meal is not 20.0")
+    }
+    
+    func testGetTotalCarbohydrateOfMealWithTwoFoodItemExpect20() {
+        let testFoodItem = FoodItem(name: "chicken", calorie: 10.0, protein: 10.0, carbohydrate: 10.0, fat: 10.0)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        XCTAssertEqual(UUT.getTotalCarbohydrateCount(), 20.0, "Total carbohydrate count of meal is not 20.0")
+    }
+    
+    func testGetTotalFatOfMealWithTwoFoodItemExpect20() {
+        let testFoodItem = FoodItem(name: "chicken", calorie: 10.0, protein: 10.0, carbohydrate: 10.0, fat: 10.0)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        UUT.addFoodItem(foodItem: testFoodItem)
+        XCTAssertEqual(UUT.getTotalFatCount(), 20.0, "Total fat count of meal is not 20.0")
     }
 }

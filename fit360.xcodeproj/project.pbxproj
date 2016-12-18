@@ -25,6 +25,9 @@
 		D4CAADF21DFCBA0C001B80D9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CAADF11DFCBA0C001B80D9 /* Errors.swift */; };
 		D4CAADF31DFCBA0C001B80D9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CAADF11DFCBA0C001B80D9 /* Errors.swift */; };
 		D4CAADF41DFCBA0C001B80D9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CAADF11DFCBA0C001B80D9 /* Errors.swift */; };
+		D4EA77EA1E072FB400902CE9 /* MealPlanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA77E91E072FB400902CE9 /* MealPlanManager.swift */; };
+		D4EA77EB1E072FBB00902CE9 /* MealPlanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA77E91E072FB400902CE9 /* MealPlanManager.swift */; };
+		D4EA77ED1E072FED00902CE9 /* mealPlanManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA77EC1E072FED00902CE9 /* mealPlanManagerTests.swift */; };
 		E481E4A4029879462507D0EE /* Pods_fit360UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FD41A3015DAB20C210F2D7 /* Pods_fit360UITests.framework */; };
 		F0056065E88EE8EAA5D175BE /* Pods_fit360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B55ED3095F379640DA87377 /* Pods_fit360.framework */; };
 /* End PBXBuildFile section */
@@ -72,6 +75,8 @@
 		D4792BB61D9B201C000069B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4792BC21D9B20B2000069B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D4CAADF11DFCBA0C001B80D9 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		D4EA77E91E072FB400902CE9 /* MealPlanManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlanManager.swift; sourceTree = "<group>"; };
+		D4EA77EC1E072FED00902CE9 /* mealPlanManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mealPlanManagerTests.swift; sourceTree = "<group>"; };
 		D7B271E4CD19335B3DE01254 /* Pods-fit360Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fit360Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fit360Tests/Pods-fit360Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FA79012279A8E2D2110E9312 /* Pods-fit360UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fit360UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fit360UITests/Pods-fit360UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE7AC86F6274FA14E23E91E8 /* Pods-fit360UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fit360UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fit360UITests/Pods-fit360UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +156,7 @@
 				D45FF68E1DD25DE2003C0ED5 /* FoodItem.swift */,
 				D437464D1DF8C81700A60774 /* Meal.swift */,
 				D4CAADF11DFCBA0C001B80D9 /* Errors.swift */,
+				D4EA77E91E072FB400902CE9 /* MealPlanManager.swift */,
 			);
 			path = fit360;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 				D4792BAB1D9B201C000069B3 /* Info.plist */,
 				D437464B1DF7486700A60774 /* foodItemTests.swift */,
 				D43746501DFB6E3A00A60774 /* mealTests.swift */,
+				D4EA77EC1E072FED00902CE9 /* mealPlanManagerTests.swift */,
 			);
 			path = fit360Tests;
 			sourceTree = "<group>";
@@ -475,6 +482,7 @@
 				D4792B951D9B201C000069B3 /* AppDelegate.swift in Sources */,
 				D4CAADF21DFCBA0C001B80D9 /* Errors.swift in Sources */,
 				D41A831C1DBC1C8000283B26 /* DietCreationModel.swift in Sources */,
+				D4EA77EA1E072FB400902CE9 /* MealPlanManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +491,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4CAADF01DFB7882001B80D9 /* FoodItem.swift in Sources */,
+				D4EA77ED1E072FED00902CE9 /* mealPlanManagerTests.swift in Sources */,
+				D4EA77EB1E072FBB00902CE9 /* MealPlanManager.swift in Sources */,
 				D4CAADF31DFCBA0C001B80D9 /* Errors.swift in Sources */,
 				D437464F1DF8C81700A60774 /* Meal.swift in Sources */,
 				D43746511DFB6E3A00A60774 /* mealTests.swift in Sources */,

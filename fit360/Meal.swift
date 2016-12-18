@@ -41,14 +41,38 @@ class Meal {
     }
     
     func getTotalProteinCount() -> Float {
-        return 0.0
+        if !_foodItems.isEmpty {
+            var proteinCount: Float = 0.0
+            for foodItem in _foodItems {
+                proteinCount.add(foodItem.getProtein())
+            }
+            return proteinCount
+        } else {
+            return 0.0
+        }
     }
     
     func getTotalCarbohydrateCount() -> Float {
-        return 0.0
+        if !_foodItems.isEmpty {
+            var carbohydrateCount: Float = 0.0
+            for foodItem in _foodItems {
+                carbohydrateCount.add(foodItem.getCarbohydrate())
+            }
+            return carbohydrateCount
+        } else {
+            return 0.0
+        }
     }
     
     func getTotalFatCount() -> Float {
-        return 0.0
+        if !_foodItems.isEmpty {
+            var fatCount: Float = 0.0
+            for foodItem in _foodItems {
+                fatCount.add(foodItem.getFat())
+            }
+            return fatCount
+        } else {
+            return 0.0
+        }
     }
 }
