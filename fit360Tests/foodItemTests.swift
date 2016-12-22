@@ -35,28 +35,36 @@ class foodItemTests: XCTestCase {
     func testGetAndSetFoodItemCalorie() {
         do {
             try UUT.setCalorie(amount: 304.20)
-        } catch is Error { }
+        } catch {
+            print(error.localizedDescription)
+        }
         XCTAssertEqual(UUT.getCalorie(), 304.20, "The getCalorie did not return the correct value")
     }
     
     func testGetAndSetFoodItemProtein() {
         do {
             try UUT.setProtein(amount: 25.3)
-        } catch is Error { }
+        } catch {
+            print(error.localizedDescription)
+        }
         XCTAssertEqual(UUT.getProtein(), 25.3, "The getProtein did not return the correct value")
     }
     
     func testGetAndSetFoodItemCarbohydrate() {
         do {
             try UUT.setCarbohydrate(amount: 20.0)
-        } catch is Error { }
+        } catch {
+            print(error.localizedDescription)
+        }
         XCTAssertEqual(UUT.getCarbohydrate(), 20.0, "The getCarbohydrate did not return the correct value")
     }
     
     func testGetAndSetFoodItemFat() {
         do {
             try UUT.setFat(amount: 10.5)
-        } catch is Error { }        
+        } catch {
+            print(error.localizedDescription)
+        }
         XCTAssertEqual(UUT.getFat(), 10.5, "The getFat did not return the correct value")
     }
     

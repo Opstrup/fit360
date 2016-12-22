@@ -26,7 +26,7 @@ class FoodItem {
             try self.setProtein(amount: protein)
             try self.setCarbohydrate(amount: carbohydrate)
             try self.setFat(amount: fat)
-        } catch is Error {
+        } catch {
             print("Error occurred!")
         }
     }

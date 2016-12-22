@@ -39,7 +39,9 @@ class mealTests: XCTestCase {
         do {
             let mealArray = try UUT.getFoodItems()
             XCTAssertEqual(mealArray[0].getName(), "chicken", "Food item was not added to the meal")
-        } catch is Error { }
+        } catch {
+            print(error.localizedDescription)
+        }
     }
     
     func testGetTotalCalorieOfEmptyMealExpect0() {
