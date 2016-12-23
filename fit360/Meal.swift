@@ -10,6 +10,15 @@ import Foundation
 
 class Meal {
     private var _foodItems = [FoodItem]()
+    private var _time = NSDate()
+    
+    func setTimeForMeal(time: NSDate) {
+        _time = time
+    }
+    
+    func getTimeForMeal() -> NSDate {
+        return _time
+    }
     
     func addFoodItem(foodItem: FoodItem) {
         _foodItems.append(foodItem)

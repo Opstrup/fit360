@@ -81,4 +81,10 @@ class mealTests: XCTestCase {
         UUT.addFoodItem(foodItem: testFoodItem)
         XCTAssertEqual(UUT.getTotalFatCount(), 20.0, "Total fat count of meal is not 20.0")
     }
+    
+    func testSetTimeForMealExpectTimeToBeSetCorrect() {
+        let testDate = NSDate(timeIntervalSinceNow: 0)
+        UUT.setTimeForMeal(time: testDate)
+        XCTAssertEqual(UUT.getTimeForMeal(), testDate, "Time for meal was not set correct")
+    }
 }

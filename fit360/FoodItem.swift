@@ -13,7 +13,7 @@ class FoodItem {
     private var _calorie: Float?
     private var _protein: Float?
     private var _carbohydrate: Float?
-    private var _fat: Float!
+    private var _fat: Float?
     
     init() {
         
@@ -84,6 +84,6 @@ class FoodItem {
     }
     
     func getFat() -> Float {
-        return _fat
+        return (_fat != nil ? _fat! : 1.0)
     }
 }

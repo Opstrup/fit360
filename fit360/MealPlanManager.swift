@@ -10,4 +10,5 @@ import Foundation
 
 class MealPlanManager {
     private var _desiredNumberOfMeals: NSNumber?
+    
 }
