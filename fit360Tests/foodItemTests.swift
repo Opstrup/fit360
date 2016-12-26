@@ -24,7 +24,7 @@ class foodItemTests: XCTestCase {
     }
     
     func testProperSetUp() {
-        XCTAssertNotNil(UUT, "The food item was not nill")
+        XCTAssertNotNil(UUT, "The food item was nill")
     }
     
     func testGetAndSetFoodItemName() {

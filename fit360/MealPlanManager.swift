@@ -9,6 +9,11 @@
 import Foundation
 
 class MealPlanManager {
-    private var _desiredNumberOfMeals: NSNumber?
+    private var _userProfile: UserProfile?
     
+    func generateMealPlan() -> MealPlan {
+        let mealPlan = MealPlan()
+        
+        return mealPlan
+    }
 }
