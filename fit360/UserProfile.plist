@@ -4,5 +4,7 @@
 <dict>
 	<key>desiredMeals</key>
 	<integer>0</integer>
+	<key>userId</key>
+	<string></string>
 </dict>
 </plist>

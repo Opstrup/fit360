@@ -1,11 +1,3 @@
-//
-//  userProfile.swift
-//  fit360
-//
-//  Created by Anders Opstrup on 26/12/2016.
-//  Copyright © 2016 smallcity. All rights reserved.
-//
-
 import XCTest
 
 class userProfile: XCTestCase {
@@ -17,11 +9,16 @@ class userProfile: XCTestCase {
     }
     
     override func tearDown() {
+        UUT.resetNumberOfDesiredMeals()
         UUT = nil
         super.tearDown()
     }
     
     func testProperSetUp() {
         XCTAssertNotNil(UUT, "The user profile was nill")
+    }
+    
+    func testGetDefaultNumberOfDesiredMealsExpected0() {
+        XCTAssertEqual(UUT.numberOfDesiredMeals, 0, "Default number of desired meals was not 0")
     }
 }

@@ -16,11 +16,21 @@
 		D45FF68F1DD25DE2003C0ED5 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45FF68E1DD25DE2003C0ED5 /* FoodItem.swift */; };
 		D4792B951D9B201C000069B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4792B941D9B201C000069B3 /* AppDelegate.swift */; };
 		D4792B971D9B201C000069B3 /* DietCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4792B961D9B201C000069B3 /* DietCreationViewController.swift */; };
-		D4792B9A1D9B201C000069B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4792B981D9B201C000069B3 /* Main.storyboard */; };
 		D4792B9C1D9B201C000069B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4792B9B1D9B201C000069B3 /* Assets.xcassets */; };
-		D4792B9F1D9B201C000069B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4792B9D1D9B201C000069B3 /* LaunchScreen.storyboard */; };
 		D4792BB51D9B201C000069B3 /* fit360UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4792BB41D9B201C000069B3 /* fit360UITests.swift */; };
 		D4792BC31D9B20B2000069B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4792BC21D9B20B2000069B3 /* GoogleService-Info.plist */; };
+		D4BB738E1E3D06640042A6C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB738D1E3D06640042A6C4 /* HomeViewController.swift */; };
+		D4BB738F1E3D06640042A6C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB738D1E3D06640042A6C4 /* HomeViewController.swift */; };
+		D4BB73901E3D06640042A6C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB738D1E3D06640042A6C4 /* HomeViewController.swift */; };
+		D4BB73931E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB73921E3D26BA0042A6C4 /* OnBoardingView.swift */; };
+		D4BB73941E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB73921E3D26BA0042A6C4 /* OnBoardingView.swift */; };
+		D4BB73951E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB73921E3D26BA0042A6C4 /* OnBoardingView.swift */; };
+		D4BB73991E3D5DE50042A6C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BB73981E3D5DE50042A6C4 /* LaunchScreen.storyboard */; };
+		D4BB739A1E3D5DE50042A6C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BB73981E3D5DE50042A6C4 /* LaunchScreen.storyboard */; };
+		D4BB739B1E3D5DE50042A6C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BB73981E3D5DE50042A6C4 /* LaunchScreen.storyboard */; };
+		D4BB739D1E3F44960042A6C4 /* F360UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB739C1E3F44960042A6C4 /* F360UITextField.swift */; };
+		D4BB739E1E3F44960042A6C4 /* F360UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB739C1E3F44960042A6C4 /* F360UITextField.swift */; };
+		D4BB739F1E3F44960042A6C4 /* F360UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB739C1E3F44960042A6C4 /* F360UITextField.swift */; };
 		D4CAADF01DFB7882001B80D9 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45FF68E1DD25DE2003C0ED5 /* FoodItem.swift */; };
 		D4CAADF21DFCBA0C001B80D9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CAADF11DFCBA0C001B80D9 /* Errors.swift */; };
 		D4CAADF31DFCBA0C001B80D9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CAADF11DFCBA0C001B80D9 /* Errors.swift */; };
@@ -72,9 +82,7 @@
 		D4792B911D9B201C000069B3 /* fit360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fit360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4792B941D9B201C000069B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4792B961D9B201C000069B3 /* DietCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietCreationViewController.swift; sourceTree = "<group>"; };
-		D4792B991D9B201C000069B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4792B9B1D9B201C000069B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D4792B9E1D9B201C000069B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4792BA01D9B201C000069B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4792BA51D9B201C000069B3 /* fit360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fit360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4792BAB1D9B201C000069B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +90,10 @@
 		D4792BB41D9B201C000069B3 /* fit360UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fit360UITests.swift; sourceTree = "<group>"; };
 		D4792BB61D9B201C000069B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4792BC21D9B20B2000069B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4BB738D1E3D06640042A6C4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D4BB73921E3D26BA0042A6C4 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		D4BB73981E3D5DE50042A6C4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4BB739C1E3F44960042A6C4 /* F360UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = F360UITextField.swift; sourceTree = "<group>"; };
 		D4CAADF11DFCBA0C001B80D9 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		D4EA77E91E072FB400902CE9 /* MealPlanManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlanManager.swift; sourceTree = "<group>"; };
 		D4EA77EC1E072FED00902CE9 /* mealPlanManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mealPlanManagerTests.swift; sourceTree = "<group>"; };
@@ -158,11 +170,12 @@
 		D4792B931D9B201C000069B3 /* fit360 */ = {
 			isa = PBXGroup;
 			children = (
+				D4BB73971E3D5A620042A6C4 /* UIComponents */,
+				D4BB73961E3D26BF0042A6C4 /* OnBoarding */,
+				D4BB73911E3D07270042A6C4 /* User */,
 				D4792B941D9B201C000069B3 /* AppDelegate.swift */,
 				D4792B961D9B201C000069B3 /* DietCreationViewController.swift */,
-				D4792B981D9B201C000069B3 /* Main.storyboard */,
 				D4792B9B1D9B201C000069B3 /* Assets.xcassets */,
-				D4792B9D1D9B201C000069B3 /* LaunchScreen.storyboard */,
 				D4792BA01D9B201C000069B3 /* Info.plist */,
 				D4792BC21D9B20B2000069B3 /* GoogleService-Info.plist */,
 				D41A831B1DBC1C8000283B26 /* DietCreationModel.swift */,
@@ -171,8 +184,8 @@
 				D4CAADF11DFCBA0C001B80D9 /* Errors.swift */,
 				D4EA77E91E072FB400902CE9 /* MealPlanManager.swift */,
 				D4EA77EE1E0D638400902CE9 /* MealPlan.swift */,
-				D4EA77F41E119C3400902CE9 /* UserProfile.swift */,
-				D4EA77F71E119EA300902CE9 /* UserProfile.plist */,
+				D4BB738D1E3D06640042A6C4 /* HomeViewController.swift */,
+				D4BB73981E3D5DE50042A6C4 /* LaunchScreen.storyboard */,
 			);
 			path = fit360;
 			sourceTree = "<group>";
@@ -197,6 +210,31 @@
 				D4792BB61D9B201C000069B3 /* Info.plist */,
 			);
 			path = fit360UITests;
+			sourceTree = "<group>";
+		};
+		D4BB73911E3D07270042A6C4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D4EA77F41E119C3400902CE9 /* UserProfile.swift */,
+				D4EA77F71E119EA300902CE9 /* UserProfile.plist */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		D4BB73961E3D26BF0042A6C4 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				D4BB73921E3D26BA0042A6C4 /* OnBoardingView.swift */,
+			);
+			name = OnBoarding;
+			sourceTree = "<group>";
+		};
+		D4BB73971E3D5A620042A6C4 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D4BB739C1E3F44960042A6C4 /* F360UITextField.swift */,
+			);
+			name = UIComponents;
 			sourceTree = "<group>";
 		};
 		E77ABCB9CB87B1F20BE9CD40 /* Pods */ = {
@@ -328,11 +366,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4792B9F1D9B201C000069B3 /* LaunchScreen.storyboard in Resources */,
 				D4792BC31D9B20B2000069B3 /* GoogleService-Info.plist in Resources */,
+				D4BB73991E3D5DE50042A6C4 /* LaunchScreen.storyboard in Resources */,
 				D4EA77F81E119EA300902CE9 /* UserProfile.plist in Resources */,
 				D4792B9C1D9B201C000069B3 /* Assets.xcassets in Resources */,
-				D4792B9A1D9B201C000069B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4EA77F91E119EA300902CE9 /* UserProfile.plist in Resources */,
+				D4BB739A1E3D5DE50042A6C4 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +386,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BB739B1E3D5DE50042A6C4 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,15 +535,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BB738E1E3D06640042A6C4 /* HomeViewController.swift in Sources */,
 				D437464E1DF8C81700A60774 /* Meal.swift in Sources */,
 				D45FF68F1DD25DE2003C0ED5 /* FoodItem.swift in Sources */,
 				D4792B971D9B201C000069B3 /* DietCreationViewController.swift in Sources */,
 				D4EA77EF1E0D638400902CE9 /* MealPlan.swift in Sources */,
+				D4BB73931E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */,
 				D4792B951D9B201C000069B3 /* AppDelegate.swift in Sources */,
 				D4CAADF21DFCBA0C001B80D9 /* Errors.swift in Sources */,
 				D41A831C1DBC1C8000283B26 /* DietCreationModel.swift in Sources */,
 				D4EA77EA1E072FB400902CE9 /* MealPlanManager.swift in Sources */,
 				D4EA77F51E119C3400902CE9 /* UserProfile.swift in Sources */,
+				D4BB739D1E3F44960042A6C4 /* F360UITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,8 +556,10 @@
 			files = (
 				D4CAADF01DFB7882001B80D9 /* FoodItem.swift in Sources */,
 				D4EA77ED1E072FED00902CE9 /* mealPlanManagerTests.swift in Sources */,
+				D4BB738F1E3D06640042A6C4 /* HomeViewController.swift in Sources */,
 				D4EA77F61E119C3400902CE9 /* UserProfile.swift in Sources */,
 				D4EA77EB1E072FBB00902CE9 /* MealPlanManager.swift in Sources */,
+				D4BB739E1E3F44960042A6C4 /* F360UITextField.swift in Sources */,
 				D4EA77FB1E119EE900902CE9 /* userProfile.swift in Sources */,
 				D4EA77F01E0D638400902CE9 /* MealPlan.swift in Sources */,
 				D4EA77F31E0DD71200902CE9 /* mealPlanTests.swift in Sources */,
@@ -523,6 +567,7 @@
 				D437464F1DF8C81700A60774 /* Meal.swift in Sources */,
 				D43746511DFB6E3A00A60774 /* mealTests.swift in Sources */,
 				D437464C1DF7486700A60774 /* foodItemTests.swift in Sources */,
+				D4BB73941E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,8 +575,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BB739F1E3F44960042A6C4 /* F360UITextField.swift in Sources */,
 				D4CAADF41DFCBA0C001B80D9 /* Errors.swift in Sources */,
+				D4BB73951E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */,
 				D4792BB51D9B201C000069B3 /* fit360UITests.swift in Sources */,
+				D4BB73901E3D06640042A6C4 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,25 +597,6 @@
 			targetProxy = D4792BB11D9B201C000069B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D4792B981D9B201C000069B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4792B991D9B201C000069B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D4792B9D1D9B201C000069B3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4792B9E1D9B201C000069B3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D4792BB71D9B201C000069B3 /* Debug */ = {
@@ -675,6 +704,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SmallCity.fit360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -688,6 +718,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SmallCity.fit360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
