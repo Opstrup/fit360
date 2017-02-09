@@ -7,7 +7,11 @@ class F360UITextFieldComponent {
     var textField: UITextField {
         get { return _field }
     }
-    
+
+    init() {
+
+    }
+
     init(x: CGFloat, y: CGFloat, width: CGFloat, height: CGFloat, placeholder: String) {
         _field = UITextField(frame: CGRect(x: x, y: y, width: width, height: height ))
         _field.backgroundColor = UIColor.cyan

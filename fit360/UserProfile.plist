@@ -4,6 +4,10 @@
 <dict>
 	<key>desiredMeals</key>
 	<integer>0</integer>
+	<key>email</key>
+	<string></string>
+	<key>password</key>
+	<string></string>
 	<key>userId</key>
 	<string></string>
 </dict>

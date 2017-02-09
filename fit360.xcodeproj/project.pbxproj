@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B61D01176A55D095F924C3 /* F360UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B61435456E2B3C1DE709F9 /* F360UIButton.swift */; };
+		18B61F0B1F21B17F01AEC650 /* F360UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B61435456E2B3C1DE709F9 /* F360UIButton.swift */; };
+		18B61FC4B2B3B6B20D4E64A2 /* F360UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B61435456E2B3C1DE709F9 /* F360UIButton.swift */; };
 		3B14C9D504FCF28B1F1D78C7 /* Pods_fit360Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DE0B7B08CEF0530788012A /* Pods_fit360Tests.framework */; };
 		D41A831C1DBC1C8000283B26 /* DietCreationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41A831B1DBC1C8000283B26 /* DietCreationModel.swift */; };
+		D41ABF551E4C6BB5004BEE60 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41ABF541E4C6BB5004BEE60 /* Network.swift */; };
 		D437464C1DF7486700A60774 /* foodItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D437464B1DF7486700A60774 /* foodItemTests.swift */; };
 		D437464E1DF8C81700A60774 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D437464D1DF8C81700A60774 /* Meal.swift */; };
 		D437464F1DF8C81700A60774 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D437464D1DF8C81700A60774 /* Meal.swift */; };
@@ -68,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B61435456E2B3C1DE709F9 /* F360UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = F360UIButton.swift; sourceTree = "<group>"; };
 		2B55ED3095F379640DA87377 /* Pods_fit360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fit360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DE0B7B08CEF0530788012A /* Pods_fit360Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fit360Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69853BC8045BDAA67F5E3EC7 /* Pods-fit360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fit360.release.xcconfig"; path = "Pods/Target Support Files/Pods-fit360/Pods-fit360.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +80,7 @@
 		89FD41A3015DAB20C210F2D7 /* Pods_fit360UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fit360UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2DE94A54A815EF5CD87D80 /* Pods-fit360Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fit360Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fit360Tests/Pods-fit360Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D41A831B1DBC1C8000283B26 /* DietCreationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietCreationModel.swift; sourceTree = "<group>"; };
+		D41ABF541E4C6BB5004BEE60 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		D437464B1DF7486700A60774 /* foodItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodItemTests.swift; sourceTree = "<group>"; };
 		D437464D1DF8C81700A60774 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D43746501DFB6E3A00A60774 /* mealTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mealTests.swift; sourceTree = "<group>"; };
@@ -145,6 +151,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D41ABF531E4C6BA3004BEE60 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D41ABF541E4C6BB5004BEE60 /* Network.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
 		D4792B881D9B201B000069B3 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +184,7 @@
 		D4792B931D9B201C000069B3 /* fit360 */ = {
 			isa = PBXGroup;
 			children = (
+				D41ABF531E4C6BA3004BEE60 /* Config */,
 				D4BB73971E3D5A620042A6C4 /* UIComponents */,
 				D4BB73961E3D26BF0042A6C4 /* OnBoarding */,
 				D4BB73911E3D07270042A6C4 /* User */,
@@ -233,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				D4BB739C1E3F44960042A6C4 /* F360UITextField.swift */,
+				18B61435456E2B3C1DE709F9 /* F360UIButton.swift */,
 			);
 			name = UIComponents;
 			sourceTree = "<group>";
@@ -544,9 +560,11 @@
 				D4792B951D9B201C000069B3 /* AppDelegate.swift in Sources */,
 				D4CAADF21DFCBA0C001B80D9 /* Errors.swift in Sources */,
 				D41A831C1DBC1C8000283B26 /* DietCreationModel.swift in Sources */,
+				D41ABF551E4C6BB5004BEE60 /* Network.swift in Sources */,
 				D4EA77EA1E072FB400902CE9 /* MealPlanManager.swift in Sources */,
 				D4EA77F51E119C3400902CE9 /* UserProfile.swift in Sources */,
 				D4BB739D1E3F44960042A6C4 /* F360UITextField.swift in Sources */,
+				18B61FC4B2B3B6B20D4E64A2 /* F360UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +586,7 @@
 				D43746511DFB6E3A00A60774 /* mealTests.swift in Sources */,
 				D437464C1DF7486700A60774 /* foodItemTests.swift in Sources */,
 				D4BB73941E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */,
+				18B61F0B1F21B17F01AEC650 /* F360UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +599,7 @@
 				D4BB73951E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */,
 				D4792BB51D9B201C000069B3 /* fit360UITests.swift in Sources */,
 				D4BB73901E3D06640042A6C4 /* HomeViewController.swift in Sources */,
+				18B61D01176A55D095F924C3 /* F360UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

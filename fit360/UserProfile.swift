@@ -18,6 +18,16 @@ class UserProfile {
         }
         set(id) { }
     }
+    
+    public var email: String {
+        get { return "" }
+        set { }
+    }
+    
+    public var password: String {
+        get { return "" }
+        set { }
+    }
 
     var numberOfDesiredMeals: NSNumber {
         get {
