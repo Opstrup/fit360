@@ -39,6 +39,8 @@
 		D4CAADF21DFCBA0C001B80D9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CAADF11DFCBA0C001B80D9 /* Errors.swift */; };
 		D4CAADF31DFCBA0C001B80D9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CAADF11DFCBA0C001B80D9 /* Errors.swift */; };
 		D4CAADF41DFCBA0C001B80D9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CAADF11DFCBA0C001B80D9 /* Errors.swift */; };
+		D4CC21101E52E8DA00ACDDFE /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC210F1E52E8DA00ACDDFE /* NetworkHelper.swift */; };
+		D4CC21111E52E8DA00ACDDFE /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC210F1E52E8DA00ACDDFE /* NetworkHelper.swift */; };
 		D4EA77EA1E072FB400902CE9 /* MealPlanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA77E91E072FB400902CE9 /* MealPlanManager.swift */; };
 		D4EA77EB1E072FBB00902CE9 /* MealPlanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA77E91E072FB400902CE9 /* MealPlanManager.swift */; };
 		D4EA77ED1E072FED00902CE9 /* mealPlanManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA77EC1E072FED00902CE9 /* mealPlanManagerTests.swift */; };
@@ -101,6 +103,7 @@
 		D4BB73981E3D5DE50042A6C4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4BB739C1E3F44960042A6C4 /* F360UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = F360UITextField.swift; sourceTree = "<group>"; };
 		D4CAADF11DFCBA0C001B80D9 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		D4CC210F1E52E8DA00ACDDFE /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		D4EA77E91E072FB400902CE9 /* MealPlanManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlanManager.swift; sourceTree = "<group>"; };
 		D4EA77EC1E072FED00902CE9 /* mealPlanManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mealPlanManagerTests.swift; sourceTree = "<group>"; };
 		D4EA77EE1E0D638400902CE9 /* MealPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlan.swift; sourceTree = "<group>"; };
@@ -184,6 +187,7 @@
 		D4792B931D9B201C000069B3 /* fit360 */ = {
 			isa = PBXGroup;
 			children = (
+				D4CC210E1E52E8AC00ACDDFE /* Helpers */,
 				D41ABF531E4C6BA3004BEE60 /* Config */,
 				D4BB73971E3D5A620042A6C4 /* UIComponents */,
 				D4BB73961E3D26BF0042A6C4 /* OnBoarding */,
@@ -251,6 +255,14 @@
 				18B61435456E2B3C1DE709F9 /* F360UIButton.swift */,
 			);
 			name = UIComponents;
+			sourceTree = "<group>";
+		};
+		D4CC210E1E52E8AC00ACDDFE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D4CC210F1E52E8DA00ACDDFE /* NetworkHelper.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		E77ABCB9CB87B1F20BE9CD40 /* Pods */ = {
@@ -554,6 +566,7 @@
 				D4BB738E1E3D06640042A6C4 /* HomeViewController.swift in Sources */,
 				D437464E1DF8C81700A60774 /* Meal.swift in Sources */,
 				D45FF68F1DD25DE2003C0ED5 /* FoodItem.swift in Sources */,
+				D4CC21101E52E8DA00ACDDFE /* NetworkHelper.swift in Sources */,
 				D4792B971D9B201C000069B3 /* DietCreationViewController.swift in Sources */,
 				D4EA77EF1E0D638400902CE9 /* MealPlan.swift in Sources */,
 				D4BB73931E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */,
@@ -584,6 +597,7 @@
 				D4CAADF31DFCBA0C001B80D9 /* Errors.swift in Sources */,
 				D437464F1DF8C81700A60774 /* Meal.swift in Sources */,
 				D43746511DFB6E3A00A60774 /* mealTests.swift in Sources */,
+				D4CC21111E52E8DA00ACDDFE /* NetworkHelper.swift in Sources */,
 				D437464C1DF7486700A60774 /* foodItemTests.swift in Sources */,
 				D4BB73941E3D26BA0042A6C4 /* OnBoardingView.swift in Sources */,
 				18B61F0B1F21B17F01AEC650 /* F360UIButton.swift in Sources */,

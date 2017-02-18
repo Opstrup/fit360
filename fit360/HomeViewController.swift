@@ -25,7 +25,7 @@ class HomeViewController: UIViewController {
         view.addSubview(passwordInput.textField)
         
         let advanceBtn = UIButton(frame: CGRect(x: view.frame.width * 0.1, y: view.frame.height * 0.80, width: view.frame.width * 0.8, height: 40))
-        advanceBtn.setTitle("Advance", for: UIControlState.normal)
+        advanceBtn.setTitle("New Account", for: UIControlState.normal)
         advanceBtn.backgroundColor = UIColor.green
         advanceBtn.addTarget(self, action: #selector(HomeViewController.hello(sender:)), for: .touchUpInside)
         view.addSubview(advanceBtn)

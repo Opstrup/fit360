@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let user = UserProfile()
 
         if (user.userId == "") {
-            window?.rootViewController = UINavigationController(rootViewController: OnBoardingView())
+            window?.rootViewController = OnBoardingViewController()
         } else {
             window?.rootViewController = UINavigationController(rootViewController: HomeViewController())
         }
